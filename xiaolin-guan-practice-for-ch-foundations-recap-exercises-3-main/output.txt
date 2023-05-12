@@ -1,0 +1,46 @@
+General Problems: 
+no_dupes?
+[3, 4]
+["y"]
+[]
+
+no_consecutive_repeats?
+true
+false
+true
+false
+true
+
+char_indices
+{"m"=>[0], "i"=>[1, 4, 7, 10], "s"=>[2, 3, 5, 6], "p"=>[8, 9]}
+{"c"=>[0], "l"=>[1], "a"=>[2], "s"=>[3, 4], "r"=>[5], "o"=>[6, 7], "m"=>[8]}
+
+longest_streak
+"a"
+"cccc"
+"yyyyy"
+"bbb"
+"c"
+
+bi_prime?
+true
+true
+true
+true
+false
+false
+
+vigenere_cipher
+"upfssjtivnbo"
+"uqftsktjvobp"
+"uqhstltjxncq"
+"ceerd"
+"dbbo"
+
+vowel_rotate
+"cempotur"
+"erongas"
+"heedphanos"
+"baotcomp"
+"ewasemo"
+
