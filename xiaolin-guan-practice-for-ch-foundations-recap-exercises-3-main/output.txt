@@ -44,3 +44,13 @@ vowel_rotate
 "baotcomp"
 "ewasemo"
 
+Proc Problems
+String#select
+"pp cdmy"
+"HELLO"
+""
+
+String#map!
+"Lov3l4c3"
+"DiJkStRa"
+

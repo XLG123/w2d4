@@ -96,11 +96,16 @@ end
 # Proc Problems
 class String
 	def select(&prc)
-		
+		prc ||= Proc.new { return "" }
+		new_str = ""
+		self.each_char { |char| new_str += char if prc.call(char) }
+		new_str
 	end
 
 	def map!(&prc)
-		
+		self.each_char.with_index do |char, idx|
+			self[idx] = prc.call(char, idx)
+		end
 	end
 end
 
